@@ -1,66 +1,346 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# 🐾 Sistema Veterinaria
 
-## About Laravel
+### Plataforma Web de Gestión para Clínicas Veterinarias
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Sistema desarrollado para administrar mascotas, propietarios, servicios veterinarios y usuarios mediante una solución digital moderna.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<br>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" width="130">
 
-## Learning Laravel
+<br><br>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+![Laravel](https://img.shields.io/badge/Laravel-Framework-FF2D20?style=for-the-badge&logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+</div>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+# 📌 Descripción del Proyecto
 
-### Premium Partners
+**Sistema Veterinaria** es una aplicación web creada para optimizar la administración de una clínica veterinaria, permitiendo gestionar de manera organizada la información de pacientes, propietarios y procesos internos.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+El sistema reemplaza procesos manuales mediante una plataforma digital que facilita:
 
-## Contributing
+- Registro de mascotas.
+- Administración de propietarios.
+- Control de servicios veterinarios.
+- Gestión de usuarios.
+- Organización eficiente de información.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+El proyecto fue desarrollado utilizando **Laravel Framework**, aplicando arquitectura **MVC (Modelo - Vista - Controlador)** para mantener un código organizado, escalable y fácil de mantener.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+# 🎯 Objetivo Principal
 
-## License
+Desarrollar una solución tecnológica que permita mejorar la gestión veterinaria mediante:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+✔ Digitalización de registros.  
+✔ Mejor organización de información.  
+✔ Acceso rápido a datos importantes.  
+✔ Mayor control administrativo.  
+✔ Procesos más eficientes.
+
+
+---
+
+# 🚀 Funcionalidades del Sistema
+
+
+## 🐶 Gestión de Mascotas
+
+Administración completa de pacientes veterinarios:
+
+- Registro de mascotas.
+- Actualización de información.
+- Consulta de datos.
+- Asociación con propietarios.
+
+
+## 👥 Gestión de Propietarios
+
+Control de clientes:
+
+- Registro de propietarios.
+- Modificación de datos.
+- Consulta de información.
+- Relación propietario - mascota.
+
+
+## 🩺 Servicios Veterinarios
+
+Módulo destinado al manejo de atención veterinaria:
+
+- Registro de servicios.
+- Organización de información clínica.
+- Seguimiento de datos.
+
+
+## 🔐 Usuarios y Seguridad
+
+Sistema de acceso:
+
+- Inicio de sesión.
+- Autenticación.
+- Control de permisos.
+- Gestión de roles.
+
+
+## ⚙️ Operaciones CRUD
+
+| Acción | Función |
+|---|---|
+| ➕ Create | Crear registros |
+| 🔎 Read | Consultar información |
+| ✏️ Update | Actualizar datos |
+| 🗑️ Delete | Eliminar registros |
+
+
+---
+
+# 🏗️ Arquitectura del Sistema
+
+
+```
+              USUARIO
+
+                 ↓
+
+               VISTA
+
+                 ↓
+
+           CONTROLADOR
+
+                 ↓
+
+              MODELO
+
+                 ↓
+
+          BASE DE DATOS
+```
+
+
+El sistema utiliza el patrón **MVC**, separando la lógica de negocio, interfaz y acceso a datos.
+
+
+---
+
+# 🛠️ Tecnologías Utilizadas
+
+
+## Backend
+
+| Tecnología | Descripción |
+|-|-|
+| Laravel | Framework principal |
+| PHP | Lenguaje backend |
+| Composer | Gestión de paquetes |
+
+
+## Frontend
+
+| Tecnología | Descripción |
+|-|-|
+| Blade | Motor de vistas |
+| HTML5 | Estructura web |
+| CSS3 | Diseño visual |
+| JavaScript | Interactividad |
+
+
+## Base de Datos
+
+| Tecnología | Descripción |
+|-|-|
+| MySQL | Gestión de datos |
+| Migration Laravel | Control de estructura BD |
+
+
+## Herramientas
+
+- Visual Studio Code
+- XAMPP
+- Git
+- GitHub
+
+
+---
+
+# 📂 Estructura del Proyecto
+
+
+```
+Sistema-Veterinaria
+
+│
+├── app
+│   ├── Http
+│   └── Models
+│
+├── database
+│   ├── migrations
+│   └── seeders
+│
+├── resources
+│   ├── views
+│   ├── css
+│   └── js
+│
+├── routes
+│
+├── public
+│
+├── storage
+│
+└── README.md
+```
+
+
+---
+
+# ⚙️ Instalación
+
+
+### 1. Clonar repositorio
+
+```bash
+git clone https://github.com/clos12x/sistema-veterinaria.git
+```
+
+
+### 2. Instalar dependencias
+
+```bash
+composer install
+```
+
+```bash
+npm install
+```
+
+
+### 3. Configurar Laravel
+
+Crear archivo:
+
+```
+.env
+```
+
+Ejecutar:
+
+```bash
+php artisan key:generate
+```
+
+
+### 4. Base de datos
+
+Crear una base de datos llamada:
+
+```
+veterinaria
+```
+
+
+Configurar conexión:
+
+```
+DB_DATABASE=veterinaria
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+
+Ejecutar:
+
+```bash
+php artisan migrate
+```
+
+
+---
+
+# ▶️ Ejecución
+
+
+Servidor Laravel:
+
+```bash
+php artisan serve
+```
+
+
+Frontend:
+
+```bash
+npm run dev
+```
+
+
+Abrir:
+
+```
+http://127.0.0.1:8000
+```
+
+
+---
+
+# 📸 Vista del Sistema
+
+
+> Próximamente se agregarán capturas de pantalla del sistema.
+
+
+---
+
+# 🔮 Mejoras Futuras
+
+
+🚀 Dashboard con estadísticas.
+
+📄 Generación de reportes PDF.
+
+📱 Adaptación para dispositivos móviles.
+
+📧 Sistema de notificaciones.
+
+🩺 Historial médico avanzado.
+
+
+---
+
+# 👨‍💻 Autor
+
+
+## Jose Luis Tagua Roca
+
+Desarrollador de Software
+
+
+### Stack utilizado:
+
+🐘 PHP  
+🔥 Laravel  
+🗄️ MySQL  
+🌐 Desarrollo Web  
+
+
+---
+
+<div align="center">
+
+⭐ Si este proyecto fue de utilidad, considera darle una estrella.
+
+</div>
