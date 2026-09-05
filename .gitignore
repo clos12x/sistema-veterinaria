@@ -1,10 +1,13 @@
+# Dependencias
 /node_modules
 /vendor
 
+# Variables de entorno
 .env
 .env.backup
 .env.production
 
+# Archivos generados Laravel
 /public/storage
 /public/build
 
@@ -16,8 +19,29 @@
 
 /bootstrap/cache/*
 
+# Pruebas
+/tests
+/phpunit.xml
+
+# Configuración de frontend
+tailwind.config.js
+postcss.config.js
+vite.config.js
+
+# Configuración de paquetes
+composer.json
+composer.lock
+package.json
+package-lock.json
+
+# Configuración del editor
+.editorconfig
+.gitattributes
+
+# Logs
 npm-debug.log
 yarn-error.log
 
+# Sistema
 .DS_Store
 Thumbs.db
