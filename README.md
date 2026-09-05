@@ -2,19 +2,22 @@
 
 # 🐾 Sistema Veterinaria
 
-### Plataforma Web de Gestión para Clínicas Veterinarias
+### Plataforma Integral de Gestión Veterinaria y Comercio Electrónico para Mascotas
 
-Sistema desarrollado para administrar mascotas, propietarios, servicios veterinarios y usuarios mediante una solución digital moderna.
+Sistema web completo que integra una tienda online de productos para mascotas, administración empresarial, gestión veterinaria, control de usuarios, permisos y seguimiento de pedidos mediante una plataforma moderna y segura.
 
 <br>
 
-<img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" width="130">
+<img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" width="130" alt="Logo Veterinaria">
 
 <br><br>
 
 ![Laravel](https://img.shields.io/badge/Laravel-Framework-FF2D20?style=for-the-badge&logo=laravel)
+
 ![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php)
+
 ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql)
+
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)
 
 </div>
@@ -24,85 +27,237 @@ Sistema desarrollado para administrar mascotas, propietarios, servicios veterina
 
 # 📌 Descripción del Proyecto
 
-**Sistema Veterinaria** es una aplicación web creada para optimizar la administración de una clínica veterinaria, permitiendo gestionar de manera organizada la información de pacientes, propietarios y procesos internos.
+**Sistema Veterinaria** es una plataforma web integral diseñada para la administración completa de una empresa veterinaria moderna.
 
-El sistema reemplaza procesos manuales mediante una plataforma digital que facilita:
+El sistema combina diferentes áreas dentro de una sola solución digital:
 
-- Registro de mascotas.
-- Administración de propietarios.
-- Control de servicios veterinarios.
-- Gestión de usuarios.
-- Organización eficiente de información.
+🛒 Comercio electrónico de productos para mascotas.
+
+🩺 Gestión de atención veterinaria.
+
+👥 Administración de usuarios y permisos.
+
+📦 Control de pedidos y entregas.
+
+📊 Reportes administrativos.
+
+📧 Notificaciones automáticas mediante correo electrónico.
 
 
-El proyecto fue desarrollado utilizando **Laravel Framework**, aplicando arquitectura **MVC (Modelo - Vista - Controlador)** para mantener un código organizado, escalable y fácil de mantener.
+La plataforma permite conectar clientes, administradores, empleados y veterinarios dentro de un mismo ecosistema digital, optimizando procesos comerciales y mejorando la experiencia del usuario.
+
+
+El proyecto fue desarrollado utilizando **Laravel Framework**, aplicando arquitectura **MVC (Modelo - Vista - Controlador)** para garantizar un código organizado, escalable y mantenible.
 
 
 ---
 
 # 🎯 Objetivo Principal
 
-Desarrollar una solución tecnológica que permita mejorar la gestión veterinaria mediante:
+Desarrollar una solución tecnológica que permita digitalizar y automatizar los procesos de una empresa veterinaria mediante:
 
-✔ Digitalización de registros.  
-✔ Mejor organización de información.  
-✔ Acceso rápido a datos importantes.  
-✔ Mayor control administrativo.  
-✔ Procesos más eficientes.
+✔ Gestión centralizada de productos y servicios.
+
+✔ Administración inteligente de usuarios.
+
+✔ Control dinámico de permisos.
+
+✔ Automatización del proceso de compra.
+
+✔ Seguimiento de pedidos.
+
+✔ Asignación de veterinarios.
+
+✔ Atención veterinaria presencial y virtual.
+
+✔ Generación de información administrativa.
 
 
 ---
 
-# 🚀 Funcionalidades del Sistema
+# 🚀 Funcionalidades Principales
 
 
-## 🐶 Gestión de Mascotas
+# 🛒 Comercio Electrónico de Productos para Mascotas
 
-Administración completa de pacientes veterinarios:
+El sistema permite administrar una tienda virtual donde los clientes pueden:
 
-- Registro de mascotas.
-- Actualización de información.
-- Consulta de datos.
-- Asociación con propietarios.
-
-
-## 👥 Gestión de Propietarios
-
-Control de clientes:
-
-- Registro de propietarios.
-- Modificación de datos.
-- Consulta de información.
-- Relación propietario - mascota.
+- Visualizar productos disponibles.
+- Consultar información del producto.
+- Realizar compras.
+- Gestionar pedidos.
+- Recibir actualizaciones del estado de compra.
 
 
-## 🩺 Servicios Veterinarios
+Incluye administración de:
 
-Módulo destinado al manejo de atención veterinaria:
-
-- Registro de servicios.
-- Organización de información clínica.
-- Seguimiento de datos.
-
-
-## 🔐 Usuarios y Seguridad
-
-Sistema de acceso:
-
-- Inicio de sesión.
-- Autenticación.
-- Control de permisos.
-- Gestión de roles.
+- Productos.
+- Categorías.
+- Inventario.
+- Disponibilidad.
 
 
-## ⚙️ Operaciones CRUD
+---
 
-| Acción | Función |
+# 📦 Gestión de Pedidos y Entregas
+
+Control completo del proceso de compra:
+
+- Registro de pedidos.
+- Confirmación de compra.
+- Procesamiento del pedido.
+- Seguimiento de entrega.
+
+
+Estados del pedido:
+
+```
+🟡 Pendiente
+
+🔵 En camino
+
+🟢 Entregado
+```
+
+
+El cliente puede conocer el estado de su compra y recibir notificaciones mediante correo electrónico.
+
+
+---
+
+# 👥 Sistema de Usuarios, Roles y Permisos
+
+El sistema cuenta con un módulo avanzado de administración de usuarios.
+
+El administrador puede:
+
+- Crear usuarios.
+- Asignar roles.
+- Configurar permisos.
+- Controlar accesos.
+- Gestionar responsabilidades.
+
+
+## 👑 Administrador
+
+Cuenta con acceso completo al sistema:
+
+Funciones principales:
+
+- Gestión general de la plataforma.
+- Administración de usuarios.
+- Asignación de permisos.
+- Control de productos.
+- Gestión veterinaria.
+- Visualización de reportes.
+
+
+---
+
+## 👨‍💼 Empleado
+
+Usuario encargado de procesos operativos:
+
+Funciones:
+
+- Gestión de productos.
+- Procesamiento de pedidos.
+- Control de entregas.
+- Atención al cliente.
+
+
+---
+
+## 🧑‍⚕️ Veterinario
+
+Usuario especializado en atención médica:
+
+Funciones:
+
+- Visualizar asignaciones.
+- Atender clientes.
+- Gestionar consultas.
+- Dar seguimiento a pacientes.
+
+
+El veterinario recibe notificaciones cuando se le asigna una atención.
+
+
+---
+
+## 👤 Cliente
+
+Puede:
+
+- Registrarse en la plataforma.
+- Comprar productos.
+- Consultar pedidos.
+- Solicitar atención veterinaria.
+- Recibir información mediante correo.
+
+
+---
+
+# 🩺 Gestión de Atención Veterinaria
+
+El sistema permite administrar servicios médicos veterinarios:
+
+- Asignación de profesionales.
+- Atención presencial.
+- Atención virtual.
+- Seguimiento del cliente.
+
+
+El cliente puede solicitar atención y ser asignado a un veterinario disponible.
+
+
+---
+
+# 📧 Sistema de Notificaciones
+
+La plataforma incorpora comunicación automática mediante correo electrónico.
+
+
+Notificaciones generadas:
+
+✔ Confirmación de pedidos.
+
+✔ Cambios de estado de compra.
+
+✔ Asignación de veterinarios.
+
+✔ Información de atención.
+
+
+Esto permite mantener una comunicación constante entre usuarios y sistema.
+
+
+---
+
+# 📊 Reportes y Administración
+
+El sistema incorpora herramientas administrativas para mejorar la toma de decisiones:
+
+- Reportes de ventas.
+- Información de pedidos.
+- Control administrativo.
+- Resumen de operaciones.
+
+
+Cuenta con una interfaz moderna orientada al análisis de información.
+
+
+---
+
+# ⚙️ Operaciones CRUD
+
+
+| Operación | Descripción |
 |---|---|
-| ➕ Create | Crear registros |
-| 🔎 Read | Consultar información |
-| ✏️ Update | Actualizar datos |
-| 🗑️ Delete | Eliminar registros |
+| ➕ Create | Registro de información |
+| 🔎 Read | Consulta de datos |
+| ✏️ Update | Actualización de registros |
+| 🗑️ Delete | Eliminación de información |
 
 
 ---
@@ -111,27 +266,35 @@ Sistema de acceso:
 
 
 ```
-              USUARIO
+                  USUARIO
 
-                 ↓
+                     ↓
 
-               VISTA
+              INTERFAZ WEB
 
-                 ↓
+                     ↓
 
-           CONTROLADOR
+              CONTROLADORES
 
-                 ↓
+                     ↓
 
-              MODELO
+                 MODELOS
 
-                 ↓
+                     ↓
 
-          BASE DE DATOS
+              BASE DE DATOS
+
 ```
 
 
-El sistema utiliza el patrón **MVC**, separando la lógica de negocio, interfaz y acceso a datos.
+El sistema utiliza arquitectura MVC, separando:
+
+- Lógica del negocio.
+- Interfaz del usuario.
+- Gestión de datos.
+
+
+Esto permite mayor organización, escalabilidad y mantenimiento.
 
 
 ---
@@ -141,16 +304,16 @@ El sistema utiliza el patrón **MVC**, separando la lógica de negocio, interfaz
 
 ## Backend
 
-| Tecnología | Descripción |
+| Tecnología | Uso |
 |-|-|
 | Laravel | Framework principal |
-| PHP | Lenguaje backend |
-| Composer | Gestión de paquetes |
+| PHP | Desarrollo backend |
+| Composer | Gestión de dependencias |
 
 
 ## Frontend
 
-| Tecnología | Descripción |
+| Tecnología | Uso |
 |-|-|
 | Blade | Motor de vistas |
 | HTML5 | Estructura web |
@@ -160,10 +323,10 @@ El sistema utiliza el patrón **MVC**, separando la lógica de negocio, interfaz
 
 ## Base de Datos
 
-| Tecnología | Descripción |
+| Tecnología | Uso |
 |-|-|
-| MySQL | Gestión de datos |
-| Migration Laravel | Control de estructura BD |
+| MySQL | Almacenamiento de información |
+| Laravel Migration | Control de estructura BD |
 
 
 ## Herramientas
@@ -203,6 +366,7 @@ Sistema-Veterinaria
 ├── storage
 │
 └── README.md
+
 ```
 
 
@@ -211,25 +375,29 @@ Sistema-Veterinaria
 # ⚙️ Instalación
 
 
-### 1. Clonar repositorio
+## 1. Clonar repositorio
+
 
 ```bash
 git clone https://github.com/clos12x/sistema-veterinaria.git
 ```
 
 
-### 2. Instalar dependencias
+## 2. Instalar dependencias
+
 
 ```bash
 composer install
 ```
+
 
 ```bash
 npm install
 ```
 
 
-### 3. Configurar Laravel
+## 3. Configurar Laravel
+
 
 Crear archivo:
 
@@ -237,16 +405,20 @@ Crear archivo:
 .env
 ```
 
-Ejecutar:
+
+Generar clave:
 
 ```bash
 php artisan key:generate
 ```
 
 
-### 4. Base de datos
+---
 
-Crear una base de datos llamada:
+# 🗄️ Base de Datos
+
+
+Crear base de datos:
 
 ```
 veterinaria
@@ -257,12 +429,15 @@ Configurar conexión:
 
 ```
 DB_DATABASE=veterinaria
+
 DB_USERNAME=root
+
 DB_PASSWORD=
 ```
 
 
-Ejecutar:
+Ejecutar migraciones:
+
 
 ```bash
 php artisan migrate
@@ -271,10 +446,11 @@ php artisan migrate
 
 ---
 
-# ▶️ Ejecución
+# ▶️ Ejecución del Sistema
 
 
 Servidor Laravel:
+
 
 ```bash
 php artisan serve
@@ -283,12 +459,14 @@ php artisan serve
 
 Frontend:
 
+
 ```bash
 npm run dev
 ```
 
 
 Abrir:
+
 
 ```
 http://127.0.0.1:8000
@@ -300,7 +478,13 @@ http://127.0.0.1:8000
 # 📸 Vista del Sistema
 
 
-> Próximamente se agregarán capturas de pantalla del sistema.
+Próximamente se agregarán capturas de:
+
+- Panel administrativo.
+- Tienda online.
+- Gestión de productos.
+- Gestión veterinaria.
+- Reportes.
 
 
 ---
@@ -308,15 +492,17 @@ http://127.0.0.1:8000
 # 🔮 Mejoras Futuras
 
 
-🚀 Dashboard con estadísticas.
+🚀 Aplicación móvil.
 
-📄 Generación de reportes PDF.
+💳 Integración con pagos electrónicos.
 
-📱 Adaptación para dispositivos móviles.
+📊 Dashboard avanzado con estadísticas.
 
-📧 Sistema de notificaciones.
+📄 Reportes PDF.
 
-🩺 Historial médico avanzado.
+🤖 Recomendaciones inteligentes para clientes.
+
+📱 Optimización para dispositivos móviles.
 
 
 ---
@@ -331,16 +517,19 @@ Desarrollador de Software
 
 ### Stack utilizado:
 
-🐘 PHP  
-🔥 Laravel  
-🗄️ MySQL  
-🌐 Desarrollo Web  
+🐘 PHP
+
+🔥 Laravel
+
+🗄️ MySQL
+
+🌐 Desarrollo Web
 
 
 ---
 
 <div align="center">
 
-⭐ Si este proyecto fue de utilidad, considera darle una estrella.
+⭐ Proyecto desarrollado como plataforma integral para la gestión veterinaria y comercio electrónico de mascotas.
 
 </div>
